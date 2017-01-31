@@ -1,5 +1,35 @@
-# 5_lang_frequency
+5_lang_frequency
+===================
+The script displays 10 the most frequent word of the text file in decreasing order.
 
-Скрипт lang_frequency.py принимает на вход текстовый файл и выводит в консоль десять самых популярных слов в этом файле в порядке убывания частоты. 
+How to run
+----------
+Clone this repository. Then go to the repository directory.
+Install all requirements:
+```
+pip3 install -r requirements.txt
+```
+Run the script:
+```
+python3 lang_frequency.py
+```
 
-Запуск скрипта производится следующим образом: 1) Открыть терминал. 2) Перейти в папку, содержащую скрипт lang_frequency.py. 3) Выполнить команду lang_frequency.py. Если при выполнении программы произошла ошибка - попробуйте выполнить команду python3 lang_frequency.py .
+Usage
+-----
+
+```
+
+~$ python3 lang_frequency.py
+Введите путь к текстовому файлу --- ~/Harry Potter.txt
+     Слово   Частота
+       the      3627
+       and      1923
+        to      1861
+        he      1759
+         a      1692
+     harry      1326
+        of      1267
+        it      1186
+       was      1186
+       you      1037
+```
